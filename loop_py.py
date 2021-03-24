@@ -1,3 +1,6 @@
-cars = ['bmw','tesla','toyota']
+cars = ['bmw','tesla','toyota','honda']
 for car in cars:
-    print(car)
+    if car == 'bmw':
+        print(car.upper())
+    else:   
+        print(car.capitalize())
